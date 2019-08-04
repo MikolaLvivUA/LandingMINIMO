@@ -1,0 +1,286 @@
+/*Header*/
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 1128px;
+    margin: 0 auto;
+    
+}
+
+/*flex*/
+
+.d-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.justify-content-beetwen{
+    justify-content: space-between;
+}
+
+
+/*Dispaly settings*/
+
+
+/*padding settings*/
+
+/*
+	Padding settings
+*/
+
+.p-2,
+.py-2,
+.pt-2{
+	padding-top: .5rem;
+}
+
+.p-2,
+.px-2,
+.pr-2{
+	padding-right: .5rem;
+}
+
+.p-2,
+.py-2,
+.pb-2{
+	padding-bottom: .5rem;
+}
+
+.p-2,
+.px-2,
+.pl-2{
+	padding-left: .5rem;
+}
+
+.p-3,
+.py-3,
+.pt-3{
+	padding-top: 1rem;
+}
+
+.p-3,
+.px-3,
+.pr-3{
+	padding-right: 1rem;
+}
+
+.p-3,
+.py-3,
+.pb-3{
+	padding-bottom: 1rem;
+}
+
+.p-3,
+.px-3,
+.pl-3{
+	padding-left: 1rem;
+}
+
+.p-4,
+.py-4,
+.pt-4{
+	padding-top: 1.5rem;
+}
+
+.p-4,
+.px-4,
+.pr-4{
+	padding-right: 1.5rem;
+}
+
+.p-4,
+.py-4,
+.pb-4{
+	padding-bottom: 1.5rem;
+}
+
+.p-4,
+.px-4,
+.pl-4{
+	padding-left: 1.5rem;
+}
+
+.p-5,
+.py-5,
+.pt-5{
+	padding-top: 4.5rem;
+}
+
+.p-5,
+.px-5,
+.pr-5{
+	padding-right: 4.25rem;
+}
+
+.p-5,
+.py-5,
+.pb-5{
+	padding-bottom: 4.25rem;
+}
+
+.p-5,
+.px-5,
+.pl-5{
+	padding-left: 4.25rem;
+}
+
+.pr-7{
+    padding-right: 7.5rem;
+}
+/*List-style settings*/
+
+ul{
+    list-style: none;
+}
+
+a{ 
+    text-decoration: none;
+    color: #626262;
+    
+}
+
+
+/*Text-settings*/
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+.link-font{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.h-font{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.p-font{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+/*
+    HEADER
+*/
+
+
+
+
+
+
+
+.site-logo{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 6px;
+    align-items: center;
+    display: inline-block;
+}
+
+.nav-bar{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+}
+
+
+/*
+    Main
+*/
+
+main{
+    flex-wrap: wrap;
+}
+
+.main-photo{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 509px;
+}
+
+.photodiary{
+   flex-direction: column;
+    align-items: flex-start;
+}
+
+.photodiary a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+
+
+.photodiary p{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.description-blocks{
+    flex-wrap: wrap;
+
+}
+
+.desc-block{
+    width: 50%;
+    
+}
+
+
+.block-img img{
+    width: 100%;
+    height: 279px;
+}
+
+
+.desc-link a{
+    
+}
