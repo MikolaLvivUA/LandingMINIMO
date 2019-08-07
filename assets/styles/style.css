@@ -15,9 +15,15 @@ body{
     max-width: 1128px;
     margin: 0 auto;
     flex-direction: column;
+    background-color: #f0f0f0;
     
 }
 
+
+header,
+main{
+    background-color: #ffffff;
+}
 /*flex*/
 
 .d-flex{
@@ -240,6 +246,7 @@ a{
 main{
     flex-wrap: wrap;
     flex-grow: 1;
+    width: 100%;
 }
 
 .main-photo{
@@ -359,16 +366,14 @@ img{
 
 /*Load btn*/
 .load-btn{
-    position: relative;
     width: 100%;
     margin-top: 10rem;
 }
 
 .load-btn a{
     border: 1px solid #626262;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+   
 }
 
 .btn-text{
@@ -379,6 +384,33 @@ img{
     line-height: 24px;
 }
 
+/*Footer*/
 
+footer{
+    
+}
+
+.footer-nav{
+    width: 100%;
+    height: 97px;
+    background-color: #f0f0f0;
+    margin-top:  16rem
+}
+
+.footer-nav ul{
+    justify-content: space-between;
+    padding: 2.5rem;
+    height: 100%;
+    
+}
+
+.terms a,
+.privacy a{
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
