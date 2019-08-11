@@ -424,6 +424,27 @@ footer{
 }
 
 
+@media (max-width: 768px) {
+    .body{
+        max-width: 100%;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+    .desc-block{
+       width: 100%;
+        padding: 1.5rem;
+    }
+    
+    footer{
+        display: none;
+    }
+}
 
 @media (max-width: 576px) {
     .body{
@@ -438,10 +459,67 @@ footer{
         flex-direction: column;
     }
     .desc-block{
-       width: 100%; 
+       width: 100%;
+        padding: 1.5rem;
     }
     
     footer{
         display: none;
     }
+}
+
+@media (max-width: 320px){
+    
+    .body{
+        max-width: 100%;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+    
+    .main-photo{
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+    
+    .main-photo img{
+        height: 320px;
+    }
+    
+    .photodiary{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        height: 
+    }
+    
+    .description-blocks{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .desc-block{
+       width: 100%;
+       padding: 1.5rem;
+    }
+    
+    .email-input-block{
+        width: 90%;
+    }
+    
+    .email-input-block form{
+        margin-top: 1rem;
+    }
+    
+    
+    footer{
+        display: none;
+    }
+}
+
+    
 }
