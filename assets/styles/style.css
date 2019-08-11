@@ -425,3 +425,23 @@ footer{
 
 
 
+@media (max-width: 576px) {
+    .body{
+        max-width: 100%;
+    }
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+    }
+    .desc-block{
+       width: 100%; 
+    }
+    
+    footer{
+        display: none;
+    }
+}
